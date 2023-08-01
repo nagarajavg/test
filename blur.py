@@ -14,7 +14,7 @@ cv2.waitKey(0)
   
 # Gaussian Blurring
 # Again, you can change the kernel size
-'''gausBlur = cv2.GaussianBlur(img, (5,5),0) 
+gausBlur = cv2.GaussianBlur(img, (5,5),0) 
 cv2.imshow('Gaussian Blurring', gausBlur)
 cv2.waitKey(0)
   
@@ -25,7 +25,7 @@ cv2.waitKey(0)
   
 # Bilateral Filtering
 bilFilter = cv2.bilateralFilter(img,9,75,75)
-cv2.imshow('Bilateral Filtering', bilFilter)'''
+cv2.imshow('Bilateral Filtering', bilFilter)
 
 
 
